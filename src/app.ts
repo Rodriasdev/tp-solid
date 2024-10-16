@@ -1,7 +1,7 @@
 import express, {Application} from "express";
 import cors from 'cors';
 import morgan from "morgan";
-import { PORT } from "./config/config";
+import { PORT } from "./config/conf";
 
 
 class Server {

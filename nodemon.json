@@ -2,5 +2,5 @@
     "watch": ["src"],
     "ext": ".ts,.js",
     "ignore": [],
-    "exec": "deno run ./src/app.ts"
+    "exec": "deno run --allow-read --allow-env --allow-net --unstable-sloppy-imports ./src/app.ts"
     }
