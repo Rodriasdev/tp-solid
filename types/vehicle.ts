@@ -6,5 +6,9 @@ export interface IVehicleRepository {
 };
 
 export interface vehicleDto {
-
+    id?: number;
+    brand: string;
+    model: string;
+    year: number;
+    price: string;
 };

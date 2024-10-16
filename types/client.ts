@@ -6,5 +6,8 @@ export interface IClientRepository {
 };
 
 export interface clientDto {
-
+    id?: number;
+    name: string;
+    email: string;
+    telephone: string;
 };
